@@ -1,0 +1,197 @@
+Interviewer : Ramanathan, Hariharan
+1.Introduction along with tech stack, role and day to day activity - done
+2.Questions on Core java like string manipulations, wrapper classes, Array List, super and this keywords etc - done
+3.Advanced java questions like optional classes, functional interfaces, JVM concepts like heap and stack memory management, garbage collections etc. - done
+4.Questions on Gitlab , CI/CD, Docker - done
+5.Spring Boot basics, annotations, Dependency injection, advantages of spring boot, - done
+6.Is annotations compulsory in spring boot, what will be effect if not - done
+7.AWS related stuffs like ec2, lambdas - to prepare
+8.Database basics, and Spring JPA - to prepare
+9.Angular basics questions like version, why angular, lifecycle hooks, directives, pipes etc - to prepare
+10.define functional interface and provide its implementations - to prepare
+11.Given a list of integers , square the integers and filter the even squares from list using Stream APis - done
+12.Given a string find out first non repeating character using streams apis -
+has context menu
+
+Interviewer : Sushmi
+Interview Questions:
+Introduce yourself.  
+Explain about Project and Technology stack.
+Your Work in the project?  
+Java questions:
+Difference between equals() and ==.
+String vs StringBuilder?
+ArrayList vs LinkedList?
+Concurrent Hashmap vs HashMap?
+Thread safety? Concurrent Modification Exception? How to avoid?
+Have you written any queries in code ?
+What are functional Interfaces ? What are terminal and intermediate operations?
+What is Optional?Where can we use it?
+SpringBoot questions:
+How to write custom Exceptions ? Multiple ways? How JVM handles Exceptions?
+Annotations: @ControllerAdvice, @Controller vs @RestController,etc.
+How does Auto Configuration occurs in Spring Boot?
+Use of Starter dependency?
+Code: Code using Java8 to Convert a list of a POJO class with some fields like id,amount,status,name to a map with key as status and value as amount.
+
+Interviewer name : Balaji Vembu 2. What kind of work you have done with Spark? 3. What operations you used on Spark? 4. What you were using to run Spark application? 5. Do you have any insights about doing partitioning and shuffling in Spark? 6. What Spring Boot version you have used? 7. What kind of entity relationships you have configured in your last project? 8. How can you define OneToMany relationship for an entity? 9. What kind of queries you have written in JPA? 10. Do you know AOP? 11. How you have contributed technically in your team? 12. What was your day-to-day work?
+
+Interviewer : Madhuri Dasa
+
+1. Introduce Yourself.
+2. Go over through the Architecture of Previous Project.
+3. Draw the Architecture Diagram.
+4. Java Coding Question(Print substring of Hello - [H,He,Hel,Hell,Hello]).
+5. Design Question - We have a List of Cars. When user Clicks on a Button. App should display Response to Customer.
+
+Few more questions
+Introduce Yourself.
+Go over through the Architecture of Previous Project.
+Draw the Architecture Diagram.
+Java Coding Question(Print substring of Hello - [H,He,Hel,Hell,Hello]).
+Design Question - We have a List of Cars. When user Clicks on a Button. App should display Response to Customer.
+
+## SPRING BOOT QUESTIONS:
+
+Are you a Spring Boot developer preparing for interviews?
+
+Here are 10 scenario-based questions to test your knowledge and boost your preparation:
+
+1️⃣ How do you validate two conditions in a YAML file when creating a bean?
+
+2️⃣ How would you diagnose and resolve performance issues in a high-load Spring Boot app?
+
+3️⃣ What steps would you take to scale a Spring Boot app for increased traffic?
+
+4️⃣ How do transactions work with @Transactional, and what happens internally?
+
+5️⃣ How can you deploy a cost-effective Spring Boot app with pay-per-use server resources?
+
+6️⃣ How would you handle multiple beans of the same type?
+
+7️⃣ How do you prevent a dependency from being auto-configured in Spring Boot?
+
+8️⃣ How can you log request details (URL, HTTP method, body) before a controller processes them?
+
+9️⃣ How do you log execution times for @Transactional methods?
+
+🔟 How would you implement role-based access control and method-level security?
+
+what are the primary features of Spring Boot?
+Autoconfiguration - Spring boot allows to you to choose the dependencies of the project.
+Caching.
+Sending email. - Abstraction of sending email using JavaMail.
+Support Externalised Configuration.
+Calling REST Services with webClient -> when in reactive programming it supports to make use of webClient than restTemplate
+
+I’ve explained all these in detail in my YouTube video—a must-watch for interview prep! 🎥
+
+Watch here: https://linktw.in/sPhpxK
+
+## RESTful API:
+
+Primary features of RESTful API
+
+- statelessness - each request contains the request independent of previous interactions.
+- Unitform Interace- consistant way to interact with resource using standard HTTP Methods.
+- Cachebility - Responses can be cached by clients to improve performance by reducing server load.
+- Client Server Architecture - clear seperation between client and server data.
+- Layered System - System composed of multiple layers, each composed of specific function.
+
+## API QUESTION :
+
+API Fundamentals
+
+1. What is an API, and how does it work?
+
+2. Explain the difference between RESTful API, SOAP API, and GraphQL API.
+
+3. What are HTTP request methods (GET, POST, PUT, DELETE, etc.)?
+
+4. Describe the concept of API endpoints and API resources.
+
+5. What is API documentation, and why is it important?
+
+---
+
+API Testing
+
+1. How do you test API functionality?
+
+2. Explain the difference between API testing and unit testing.
+
+3. What tools do you use for API testing (e.g., Postman, JMeter, SoapUI)?
+
+4. How do you test API security vulnerabilities?
+
+5. Describe your experience with API testing frameworks (e.g., Pytest, Unittest).
+
+---
+
+API Security
+
+1. What are common API security threats (e.g., SQL injection, cross-site scripting)?
+
+2. Explain OAuth, OpenID Connect, and JWT authentication.
+
+3. How do you secure API endpoints?
+
+4. Describe your experience with API gateways (e.g., AWS API Gateway).
+
+5. What is API encryption, and how is it implemented?
+
+---
+
+API Design
+
+1. Explain the principles of RESTful API design.
+
+2. Describe how to design API endpoints for scalability.
+
+3. What is API versioning, and how is it implemented?
+
+4. Explain the concept of API caching.
+
+5. Describe your experience with API design tools (e.g., Swagger, API Blueprint).
+
+---
+
+API Troubleshooting
+
+1. How do you troubleshoot API errors?
+
+2. Explain common API error codes (e.g., 400, 401, 500).
+
+3. Describe your experience with API logging and monitoring tools.
+
+4. How do you handle API performance issues?
+
+5. Explain the concept of API rate limiting.
+
+---
+
+Behavioral Questions
+
+1. Tell me about a challenging API testing project.
+
+2. Describe your experience with API integration.
+
+3. How do you stay up-to-date with API trends and developments?
+
+4. Explain your approach to API testing in an Agile environment.
+
+5. Describe your experience with API documentation tools.
+
+---
+
+Scenario-Based Questions
+
+1. Design an API for a simple e-commerce application.
+
+2. Test an API endpoint using Postman.
+
+3. Implement API security measures for a sensitive data API.
+
+4. Troubleshoot an API error using logs.
+
+5. Describe how you would approach API testing for a microservices architecture.
